@@ -1,0 +1,26 @@
+{
+  "name": "manga-scraper-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to control a manga scraper and uploader.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test-scrape": "node scraper.js"
+  },
+  "keywords": [
+    "manga",
+    "scraper",
+    "telegram",
+    "bot",
+    "firebase"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.2",
+    "firebase-admin": "^11.0.1",
+    "node-telegram-bot-api": "^0.59.0"
+  }
+}
